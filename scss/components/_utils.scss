@@ -1,0 +1,105 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 0em;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.marging--top--auto {
+  margin-top: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.marging--top {
+  margin-top: 25px;
+}
+
+.background {
+  background-color: #f3f4f4;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  @media screen and (min-width: 480px) {
+    width: 480px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
+}
+
+.buton {
+  cursor: pointer;
+}
+
+body {
+  font-family: "roboto";
+  color: var(--main-text-color);
+}
+
+.head {
+  font-family: "roboto";
+}
+
+.link {
+  text-decoration: none;
+}
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  &:last-child {
+    padding-bottom: 0;
+  }
+}
+
+.projects-list:htn-chil(4n) {
+  padding-right: 0;
+}
+
+.section__none {
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
+}
